@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="appSettings" xml:space="preserve">
+    <value>Настройки приложения</value>
+  </data>
+  <data name="appStarted" xml:space="preserve">
+    <value>Приложение запущено</value>
+  </data>
+  <data name="appStoped" xml:space="preserve">
+    <value>Приложение остановлено</value>
+  </data>
+  <data name="beginDetection" xml:space="preserve">
+    <value>Начинать съемку при запуске</value>
+  </data>
+  <data name="browse" xml:space="preserve">
+    <value>Обзор</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="capturingSettings" xml:space="preserve">
+    <value>Настройки захвата кадров</value>
+  </data>
+  <data name="capturingStarted" xml:space="preserve">
+    <value>Захват кадров запущен</value>
+  </data>
+  <data name="capturingStoped" xml:space="preserve">
+    <value>Захват кадров остановлен</value>
+  </data>
+  <data name="device" xml:space="preserve">
+    <value>Устройство</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="fileUploadException" xml:space="preserve">
+    <value>Ошибка отправки файла</value>
+  </data>
+  <data name="googleDrive" xml:space="preserve">
+    <value>Google Drive</value>
+  </data>
+  <data name="language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="log" xml:space="preserve">
+    <value>Журнал событий</value>
+  </data>
+  <data name="minimizeToTray" xml:space="preserve">
+    <value>Сворачивать в трей при старте</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>мин</value>
+  </data>
+  <data name="motionDetected" xml:space="preserve">
+    <value>Обнаружено движение</value>
+  </data>
+  <data name="motionSensorSensitivity" xml:space="preserve">
+    <value>Чувствительность датчика движения</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="previewWindow" xml:space="preserve">
+    <value>Окно предпросмотра</value>
+  </data>
+  <data name="runWithWindows" xml:space="preserve">
+    <value>Автозапуск приложения с Windows</value>
+  </data>
+  <data name="saveCopiesTo" xml:space="preserve">
+    <value>Путь для копий (будут удалены после передачи)</value>
+  </data>
+  <data name="saveFrameToFile" xml:space="preserve">
+    <value>Сохранение кадра в файл</value>
+  </data>
+  <data name="saveTo" xml:space="preserve">
+    <value>Путь для снимков</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>сек</value>
+  </data>
+  <data name="selectedDevice" xml:space="preserve">
+    <value>Выбранное устройство</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="settingsApplyError" xml:space="preserve">
+    <value>Ошибка при применении настроек</value>
+  </data>
+  <data name="showDateTime" xml:space="preserve">
+    <value>Время и дата на снимках</value>
+  </data>
+  <data name="showPreview" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="snapshotsInterval" xml:space="preserve">
+    <value>Интервал снимков</value>
+  </data>
+  <data name="snapshotsOnlyByInterval" xml:space="preserve">
+    <value>Снимки только по интервалу (отключить датчик движения)</value>
+  </data>
+  <data name="start" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="startDelay" xml:space="preserve">
+    <value>Отложенный старт</value>
+  </data>
+  <data name="startDelayedTo" xml:space="preserve">
+    <value>Старт отложен до</value>
+  </data>
+  <data name="stop" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="telegramCode" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="telegramGetCode" xml:space="preserve">
+    <value>Получить код</value>
+  </data>
+  <data name="telegramLogin" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="telegramNotify" xml:space="preserve">
+    <value>Отправлять уведомления в Telegram при обнаружении</value>
+  </data>
+  <data name="telegramPhoneNumber" xml:space="preserve">
+    <value>Номер телефона (пример 79991234567)</value>
+  </data>
+  <data name="telegramSessionStatus" xml:space="preserve">
+    <value>Статус сессии</value>
+  </data>
+  <data name="telegramStatusActive" xml:space="preserve">
+    <value>Активна</value>
+  </data>
+  <data name="telegramStatusChecking" xml:space="preserve">
+    <value>Проверка</value>
+  </data>
+  <data name="telegramStatusInactive" xml:space="preserve">
+    <value>Неактивна</value>
+  </data>
+  <data name="uploadFileToGoogleDrive" xml:space="preserve">
+    <value>Отправка файла в Google Drive. Путь к файлу</value>
+  </data>
+  <data name="uploadToGoogleDrive" xml:space="preserve">
+    <value>Загружать копии в Google Drive</value>
+  </data>
+</root>
