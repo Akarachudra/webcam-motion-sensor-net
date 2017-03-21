@@ -4,7 +4,7 @@ namespace WebcamMotion.Classes
 {
     public interface ITelegramClientWrapper
     {
-        void Init();
+        Task Init();
         void SendMessageToSelf(string message);
         void SendPhotoToSelf(string filePath, string message);
         bool IsSessionActive();

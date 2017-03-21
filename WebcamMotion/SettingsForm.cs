@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Windows.Forms;
 using WebcamMotion.Classes;
 using WebcamMotion.FormsBase;
@@ -187,12 +188,12 @@ namespace WebcamMotion
 
         private void telegramCodeButton_Click(object sender, EventArgs e)
         {
-            telegramClientWrapper.Init();
             GetTelegramHash();
         }
 
         private async void GetTelegramHash()
         {
+            await telegramClientWrapper.Init();
             telegramHash = await telegramClientWrapper.SendCodeAsync(telegramPhone.Text);
         }
 

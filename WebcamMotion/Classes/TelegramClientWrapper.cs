@@ -18,7 +18,7 @@ namespace WebcamMotion.Classes
             telegramClient = new TelegramClient(ApiId, ApiHash);
         }
 
-        public async void Init()
+        public async Task Init()
         {
             if (isInited) return;
             await telegramClient.ConnectAsync();
