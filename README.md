@@ -1,5 +1,5 @@
 # Webcam Motion Sensor
-Webcam Motion Sensor is a C# (WinForms) application for detecting and capturing motion via webcamera. http://webcammotiondetector.pw/ 
+Webcam Motion Sensor is a C# (WinForms) application for detecting and capturing motion via webcamera.
 
 Features:
 * Motion detection
